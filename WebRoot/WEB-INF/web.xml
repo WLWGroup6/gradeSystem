@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>servlet.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddStudent</servlet-name>
+		<servlet-class>servlet.AddStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PersonInfo</servlet-name>
+		<servlet-class>servlet.PersonInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>servlet.Update</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>servlet.Logout</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>TeacherInfo</servlet-name>
+		<servlet-class>servlet.TeacherInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Update_t</servlet-name>
+		<servlet-class>servlet.Update_t</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Query_s</servlet-name>
+		<servlet-class>servlet.Query_s</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Query_t</servlet-name>
+		<servlet-class>servlet.Query_t</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateGrade</servlet-name>
+		<servlet-class>servlet.UpdateGrade</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Password</servlet-name>
+		<servlet-class>servlet.Password</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Password_t</servlet-name>
+		<servlet-class>servlet.Password_t</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Query_tcx</servlet-name>
+		<servlet-class>servlet.Query_tcx</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Query_tbk</servlet-name>
+		<servlet-class>servlet.Query_tbk</servlet-class>
+	</servlet>
+	
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddStudent</servlet-name>
+		<url-pattern>/AddStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonInfo</servlet-name>
+		<url-pattern>/PersonInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TeacherInfo</servlet-name>
+		<url-pattern>/TeacherInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Update_t</servlet-name>
+		<url-pattern>/Update_t</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Query_s</servlet-name>
+		<url-pattern>/Query_s</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Query_t</servlet-name>
+		<url-pattern>/Query_t</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateGrade</servlet-name>
+		<url-pattern>/UpdateGrade</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Password</servlet-name>
+		<url-pattern>/Password</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Password_t</servlet-name>
+		<url-pattern>/Password_t</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Query_tcx</servlet-name>
+		<url-pattern>/Query_tcx</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Query_tbk</servlet-name>
+		<url-pattern>/Query_tbk</url-pattern>
+	</servlet-mapping>
+</web-app>

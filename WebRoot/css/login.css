@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+#name,#password,#role{
+	width:250px;
+	height: 30px;
+}

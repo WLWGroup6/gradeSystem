@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0 auto;
+}
+.input {
+	width:250px;
+	height: 30px;
+}

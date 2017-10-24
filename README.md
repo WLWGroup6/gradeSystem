@@ -1,2 +1,1 @@
-# gradeSystem
-成绩管理系统
+# grade_systems
