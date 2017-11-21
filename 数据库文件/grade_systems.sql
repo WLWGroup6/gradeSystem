@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
---
+-- 11111111
 -- 表的结构 `course`
 --
 
@@ -44,7 +44,10 @@ INSERT INTO `course` (`c_no`, `c_name`, `c_credit`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的结构 `frirelship`
+-- 表的结构 `frirelship`          
+
+ 
+  
 --
 
 CREATE TABLE IF NOT EXISTS `frirelship` (
